@@ -1,14 +1,24 @@
 import './App.css';
-import HomeScreen from "./screens/HomeScreen";
 import React from "react";
+import { Switch, Route } from 'react-router-dom';
 
-function App() {
+const App = ({routes}) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <HomeScreen/>
-      </header>
-    </div>
+      <React.Fragment>
+          <Switch>
+              {routes.map(
+                  (route, index) =>
+                      route.isPublic ? (
+                          <Route
+                              key={index}
+                              exact={route.exact}
+                              path={route.path}
+                              component={route.component}
+                          />
+                      ) : null
+              )};
+          </Switch>
+      </React.Fragment>
   );
 }
 
