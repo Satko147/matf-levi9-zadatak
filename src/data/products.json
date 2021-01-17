@@ -1,15 +1,91 @@
 {
   "products" : [ {
-    "productName" : "Product 1"
+    "id": 1,
+    "name" : "Product 1",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "imageUrl": "https://turnerduckworth.com/sites/default/files/styles/case_study_single_image_s_2x/public/2019-04/Amazon%20Box%202560.jpg?h=a92f03cd&itok=cw-XghMc",
+    "categoryId": 1,
+    "categoryName": "C1",
+    "creationDate": "2019-05-13"
   }, {
-    "productName" : "Product 2"
+    "id": 2,
+    "name" : "Product 2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "imageUrl": "https://turnerduckworth.com/sites/default/files/styles/case_study_single_image_s_2x/public/2019-04/Amazon%20Box%202560.jpg?h=a92f03cd&itok=cw-XghMc",
+    "categoryId": 1,
+    "categoryName": "C1",
+    "creationDate": "2019-05-14"
   }, {
-    "productName" : "Product 3"
+    "id": 3,
+    "name" : "Product 3",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "imageUrl": "https://turnerduckworth.com/sites/default/files/styles/case_study_single_image_s_2x/public/2019-04/Amazon%20Box%202560.jpg?h=a92f03cd&itok=cw-XghMc",
+    "categoryId": 1,
+    "categoryName": "C1",
+    "creationDate": "2019-05-15"
   }, {
-    "productName" : "Product 4"
+    "id": 4,
+    "name" : "Product 4",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "imageUrl": "https://turnerduckworth.com/sites/default/files/styles/case_study_single_image_s_2x/public/2019-04/Amazon%20Box%202560.jpg?h=a92f03cd&itok=cw-XghMc",
+    "categoryId": 1,
+    "categoryName": "C1",
+    "creationDate": "2019-05-16"
   }, {
-    "productName" : "Product 5"
+    "id": 5,
+    "name" : "Product 5",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "imageUrl": "https://turnerduckworth.com/sites/default/files/styles/case_study_single_image_s_2x/public/2019-04/Amazon%20Box%202560.jpg?h=a92f03cd&itok=cw-XghMc",
+    "categoryId": 1,
+    "categoryName": "C1",
+    "creationDate": "2019-05-17"
   }, {
-    "productName" : "Product 6"
-  } ]
+    "id": 6,
+    "name" : "Product 6",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "imageUrl": "https://turnerduckworth.com/sites/default/files/styles/case_study_single_image_s_2x/public/2019-04/Amazon%20Box%202560.jpg?h=a92f03cd&itok=cw-XghMc",
+    "categoryId": 1,
+    "categoryName": "C1",
+    "creationDate": "2019-05-18"
+  }, {
+    "id": 7,
+    "name" : "Product 7",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "imageUrl": "https://turnerduckworth.com/sites/default/files/styles/case_study_single_image_s_2x/public/2019-04/Amazon%20Box%202560.jpg?h=a92f03cd&itok=cw-XghMc",
+    "categoryId": 2,
+    "categoryName": "C2",
+    "creationDate": "2019-05-19"
+  }, {
+    "id": 8,
+    "name" : "Product 8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "imageUrl": "https://turnerduckworth.com/sites/default/files/styles/case_study_single_image_s_2x/public/2019-04/Amazon%20Box%202560.jpg?h=a92f03cd&itok=cw-XghMc",
+    "categoryId": 2,
+    "categoryName": "C2",
+    "creationDate": "2019-05-20"
+  }, {
+    "id": 9,
+    "name" : "Product 9",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "imageUrl": "https://turnerduckworth.com/sites/default/files/styles/case_study_single_image_s_2x/public/2019-04/Amazon%20Box%202560.jpg?h=a92f03cd&itok=cw-XghMc",
+    "categoryId": 2,
+    "categoryName": "C2",
+    "creationDate": "2019-07-01"
+  }, {
+    "id": 10,
+    "name" : "Product 10",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "imageUrl": "https://turnerduckworth.com/sites/default/files/styles/case_study_single_image_s_2x/public/2019-04/Amazon%20Box%202560.jpg?h=a92f03cd&itok=cw-XghMc",
+    "categoryId": 2,
+    "categoryName": "C2",
+    "creationDate": "2019-07-02"
+  }, {
+    "id": 11,
+    "name" : "Product 11",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "imageUrl": "https://turnerduckworth.com/sites/default/files/styles/case_study_single_image_s_2x/public/2019-04/Amazon%20Box%202560.jpg?h=a92f03cd&itok=cw-XghMc",
+    "categoryId": 2,
+    "categoryName": "C2",
+    "creationDate": "2019-07-03"
+  }]
 }

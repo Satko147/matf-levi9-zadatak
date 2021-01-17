@@ -1,0 +1,17 @@
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.ant-list-pagination {
+    margin: 8px;
+}
+
+
+.ant-spin-nested-loading {
+    min-height: calc(100vh - 237px);
+    /*min-width: 70vw;*/
+}

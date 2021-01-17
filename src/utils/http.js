@@ -5,11 +5,11 @@ export const httpGet = (url, payload = null) => {
 }
 
 export const httpPost = (url, payload) => {
-    return axios.post(url, JSON.stringify(payload))
+    return axios.post(url, JSON.stringify(payload.body))
 }
 
 export const httpPut = (url, payload) => {
-    return axios.put(url, JSON.stringify(payload))
+    return axios.put(url, JSON.stringify(payload.body))
 }
 export const httpDelete = (url) => {
     return axios.delete(url)

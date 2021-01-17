@@ -1,0 +1,19 @@
+
+.card {
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.responsiveTextContainer {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.responsiveText {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

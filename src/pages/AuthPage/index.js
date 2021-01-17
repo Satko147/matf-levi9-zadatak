@@ -9,7 +9,7 @@ const { Content } = Layout;
 const AuthPage = props => {
     return (
         <Layout style={{height:"100vh"}}>
-            <PageHeader/>
+            <PageHeader history={props.history}/>
             <Content style={{marginLeft: '20%', marginRight: '20%'}}>
                 Auth
             </Content>

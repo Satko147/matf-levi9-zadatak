@@ -6,7 +6,8 @@ import {
     HomePage,
     CheckoutPage,
     AuthPage,
-    CartPage
+    CartPage,
+    AddProductPage
 } from '../pages';
 
 
@@ -27,17 +28,21 @@ const routes = {
         isPublic: true,
         component: CheckoutPage
     }, {
-        path: '/home',
+        path: '/admin/proizvodi',
         exact: true,
         isPublic: true,
         component: HomePage
     }, {
-        path: '/product/:productId',
+        path: '/products/:productId',
         exact: true,
         isPublic: true,
         component: ProductPage
-    },
-    {
+    }, {
+        path: '/admin/unos-novog-proizvoda',
+        exact: true,
+        isPublic: true,
+        component: AddProductPage
+    }, {
         path: '/*',
         isPublic: true,
         component: () => <Redirect to={{ pathname: '/login' }} />,

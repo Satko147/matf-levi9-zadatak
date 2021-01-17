@@ -1,14 +1,23 @@
 
+.ant-layout-header {
+    padding: 0px;
+}
+
 .header {
     width: 100%;
     background-color: #e7e7e7;
 }
 
 .headerContainer {
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: 100%;
+}
+
+.levi9Logo {
+    cursor: pointer;
 }

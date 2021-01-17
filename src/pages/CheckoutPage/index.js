@@ -10,7 +10,7 @@ const { Content } = Layout;
 const CheckoutPage = props => {
     return (
         <Layout style={{height:"100vh"}}>
-            <PageHeader/>
+            <PageHeader history={props.history}/>
             <Content style={{marginLeft: '20%', marginRight: '20%'}}>
                 Checkout
             </Content>
